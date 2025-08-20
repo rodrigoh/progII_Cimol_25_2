@@ -26,6 +26,10 @@ public class Exemplo02 {
 		System.out.print("Digite uma frase: ");
 		String frase = ler.nextLine();
 		System.out.println("A frase é "+frase);
+		//Lendo uma letra do teclado
+		System.out.print("Digite uma letra: ");
+		char letra = ler.next().charAt(0);
+		System.out.println("A letra é "+letra);
 
 
 
