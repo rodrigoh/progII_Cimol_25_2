@@ -30,8 +30,5 @@ public class Exemplo02 {
 		System.out.print("Digite uma letra: ");
 		char letra = ler.next().charAt(0);
 		System.out.println("A letra é "+letra);
-
-
-
 	}
 }
