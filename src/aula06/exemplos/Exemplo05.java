@@ -9,7 +9,7 @@ public class Exemplo05 {
     int cont=0;
     String resp;
     do{
-      System.out.print("numeros["+cont+"]: ");
+      System.out.print("números["+cont+"]: ");
       numeros[cont++] = ler.nextInt();
       System.out.print("Tem mais números? (sim, não) ");
       resp = ler.next().toLowerCase();
